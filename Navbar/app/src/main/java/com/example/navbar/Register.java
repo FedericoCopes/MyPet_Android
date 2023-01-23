@@ -28,7 +28,7 @@ public class Register extends AppCompatActivity {
 
         final EditText fullname = findViewById(R.id.fullname);
         final EditText email = findViewById(R.id.email);
-        final EditText phone = findViewById(R.id.phone);
+        final EditText username = findViewById(R.id.username);
         final EditText password = findViewById(R.id.password);
         final EditText conPassword = findViewById(R.id.conPassword);
 
@@ -43,12 +43,12 @@ public class Register extends AppCompatActivity {
                 // get data from EditTexts into String variables
                 final String fullnameTxt = fullname.getText().toString();
                 final String emailTxt = email.getText().toString();
-                final String phoneTxt = phone.getText().toString();
+                final String usernameTxt = username.getText().toString();
                 final String passwordTxt = password.getText().toString();
                 final String conPasswordTxt = conPassword.getText().toString();
 
                 // check if user fill all the fields before sending data to firebase
-                if(fullnameTxt.isEmpty() || emailTxt.isEmpty() || phoneTxt.isEmpty() || passwordTxt.isEmpty()){
+                if(fullnameTxt.isEmpty() || emailTxt.isEmpty() || usernameTxt.isEmpty() || passwordTxt.isEmpty()){
                     Toast.makeText(Register.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
                 }
 
@@ -64,18 +64,18 @@ public class Register extends AppCompatActivity {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
 
-                            // check if email is not registered before
+                            // check if username is not registered before
 
-                            if(snapshot.hasChild(emailTxt)){
-                                Toast.makeText(Register.this, "Email is already registered", Toast.LENGTH_SHORT).show();
+                            if(snapshot.hasChild(usernameTxt)){
+                                Toast.makeText(Register.this, "Username is already registered", Toast.LENGTH_SHORT).show();
                             }
                             else{
                                 // sending data to firebase Realtime Database.
-                                // we are using email address as unique identity of every user
-                                // so all the other details of users comes under email address
-                                databaseReference.child("users").child(emailTxt).child("fullname").setValue(fullnameTxt);
-                                databaseReference.child("users").child(emailTxt).child("phone").setValue(phoneTxt);
-                                databaseReference.child("users").child(emailTxt).child("password").setValue(passwordTxt);
+                                // we are using numeric username as unique identity of every user
+                                // so all the other details of users comes under username
+                                databaseReference.child("users").child(usernameTxt).child("fullname").setValue(fullnameTxt);
+                                databaseReference.child("users").child(usernameTxt).child("email").setValue(emailTxt);
+                                databaseReference.child("users").child(usernameTxt).child("password").setValue(passwordTxt);
 
                                 // show a success message the finish the activity
                                 Toast.makeText(Register.this, "User registered successfully.", Toast.LENGTH_SHORT).show();
