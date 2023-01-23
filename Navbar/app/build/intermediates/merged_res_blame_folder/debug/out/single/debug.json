@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\layout_home_fragment.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\drawable_rounded_corners.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\raw_v.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\raw\\v.xml"
+    },
+    {
+        "merged": "com.example.navbar.app-merged_res-35:/layout_map_fragment.xml.flat",
+        "source": "com.example.navbar.app-main-37:/layout/map_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\raw_veterinari.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\raw\\veterinari.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-pngs-30:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\layout_menu_fragment.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\layout\\menu_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\drawable_ic_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\drawable\\ic_baseline_menu_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\drawable_ic_baseline_map_24.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\drawable\\ic_baseline_map_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-debug-36:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-merged_res-35:\\layout_map_fragment.xml.flat",
+        "source": "C:\\Users\\MATTIAADAMOLI\\.gradle\\daemon\\7.4\\com.example.navbar.app-main-37:\\layout\\map_fragment.xml"
+    }
+]

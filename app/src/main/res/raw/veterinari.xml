@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<veterinari>
+    <veterinario>
+        <nome>Dott Da Col Simone</nome>
+        <indirizzo>Via Prati Rossi, 7</indirizzo>
+        <citta>Dubino</citta>
+        <cap>23015</cap>
+        <provincia>SO</provincia>
+        <latitudine>46.16418433459341</latitudine>
+        <longitudine>9.426564128410677</longitudine>
+        <telefono>3356173962</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Galperti Dr. Corrado</nome>
+        <indirizzo>Via Parravicini, 6</indirizzo>
+        <citta>Colico</citta>
+        <cap>23823</cap>
+        <provincia>LC</provincia>
+        <latitudine>46.138044076730516</latitudine>
+        <longitudine>9.373352681552456</longitudine>
+        <telefono>0341930716</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Barri Camilla</nome>
+        <indirizzo>Via Nazionale Campo, 704</indirizzo>
+        <citta>Novate Mezzola</citta>
+        <cap>23025</cap>
+        <provincia>SO</provincia>
+        <latitudine>46.20831971918664</latitudine>
+        <longitudine>9.460482497843618</longitudine>
+        <telefono>034362060</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Piantedo</nome>
+        <indirizzo>Via S. Giovanni Bosco, 235</indirizzo>
+        <citta>Piantedo</citta>
+        <cap>23010</cap>
+        <provincia>SO</provincia>
+        <latitudine>46.13906446960856</latitudine>
+        <longitudine>9.424943040354202</longitudine>
+        <telefono>3701573638</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Carducci della Dott.ssa Miele Francesca</nome>
+        <indirizzo>Rondò Giosuè Carducci, 6</indirizzo>
+        <citta>Voghera</citta>
+        <cap>27058</cap>
+        <provincia>PV</provincia>
+        <latitudine>44.99955348977862</latitudine>
+        <longitudine>9.005418232361913</longitudine>
+        <telefono>3381313417</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Clinica Veterinaria Città di Lecco</nome>
+        <indirizzo>Corso Matteotti, 29</indirizzo>
+        <citta>Lecco</citta>
+        <cap>23900</cap>
+        <provincia>LC</provincia>
+        <latitudine>45.85932409540293</latitudine>
+        <longitudine>9.396231819124038</longitudine>
+        <telefono>03411840029</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Centro Veterinario S. Fermo</nome>
+        <indirizzo>Via A. De Gasperi, 9</indirizzo>
+        <citta>Cesana Brianza</citta>
+        <cap>23861</cap>
+        <provincia>LC</provincia>
+        <latitudine>45.81763354198948</latitudine>
+        <longitudine>9.295734018022468</longitudine>
+        <telefono>031658429</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Dott.ssa Rita Lorenzoni</nome>
+        <indirizzo>Via Magenta, 5/3</indirizzo>
+        <citta>Lomagna</citta>
+        <cap>23871</cap>
+        <provincia>LC</provincia>
+        <latitudine>45.66796709992207</latitudine>
+        <longitudine>9.372477675781616</longitudine>
+        <telefono>0399220892</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Clinica Veterinaria Triangolo Lariano - Dr. Mario Tomba</nome>
+        <indirizzo>Via Volta, 78</indirizzo>
+        <citta>Canzo</citta>
+        <cap>22035</cap>
+        <provincia>CO</provincia>
+        <latitudine>45.8428863366058</latitudine>
+        <longitudine>9.272954004703081</longitudine>
+        <telefono>031684444</telefono>
+    </veterinario>
+
+    <veterinario>
+        <nome>Ambulatorio Veterinario Dr.ssa Laura Bianchi</nome>
+        <indirizzo>Via Magenta, 26</indirizzo>
+        <citta>Lecco</citta>
+        <cap>23900</cap>
+        <provincia>LC</provincia>
+        <latitudine>45.85508708305203</latitudine>
+        <longitudine>9.410325724364835</longitudine>
+        <telefono>0341320156</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Dr.ssa Occa Valentina</nome>
+        <indirizzo>Corso Bergamo, 27</indirizzo>
+        <citta>Lecco</citta>
+        <cap>23900</cap>
+        <provincia>LC</provincia>
+        <latitudine>45.82664276943349</latitudine>
+        <longitudine>9.417355721744379</longitudine>
+        <telefono>3396339214</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Studio Medico Veterinario Dr. Frigerio</nome>
+        <indirizzo>Via Fra' Galdino, 11</indirizzo>
+        <citta>Lecco</citta>
+        <cap>23900</cap>
+        <provincia>LC</provincia>
+        <latitudine>45.846481997796545</latitudine>
+        <longitudine>9.401442320579912</longitudine>
+        <telefono>0341361443</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Dr.ssa Burbello</nome>
+        <indirizzo>Via Circonvallazione, 26</indirizzo>
+        <citta>Cornate d'Adda</citta>
+        <cap>20872</cap>
+        <provincia>MB</provincia>
+        <latitudine>45.648744960138615</latitudine>
+        <longitudine>9.463287818519222</longitudine>
+        <telefono>0396926993</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Clinica Veterinaria Dr. C. Dede' - P. Hofmann</nome>
+        <indirizzo>Via Voldomino, 11</indirizzo>
+        <citta>Luino</citta>
+        <cap>21016</cap>
+        <provincia>VA</provincia>
+        <latitudine>45.99868889371297</latitudine>
+        <longitudine>8.744799280996338</longitudine>
+        <telefono>0332511000</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Risorgimento</nome>
+        <indirizzo>Via Carlo Goldoni, 1</indirizzo>
+        <citta>Milano</citta>
+        <cap>20129</cap>
+        <provincia>MI</provincia>
+        <latitudine>45.46944063663662</latitudine>
+        <longitudine>9.207556633550515</longitudine>
+        <telefono>02796387</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Centro Servizi Veterinari Valcurone</nome>
+        <indirizzo>Via Kennedy, 14</indirizzo>
+        <citta>Missaglia</citta>
+        <cap>23873</cap>
+        <provincia>LC</provincia>
+        <latitudine>45.69359163407315</latitudine>
+        <longitudine>9.365420748288233</longitudine>
+        <telefono>0399279338</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Segala Dr. Marco</nome>
+        <indirizzo>Piazza Italia, 7/BIS</indirizzo>
+        <citta>Brebbia</citta>
+        <cap>21020</cap>
+        <provincia>VA</provincia>
+        <latitudine>45.82918167453988</latitudine>
+        <longitudine>8.649936279149326</longitudine>
+        <telefono>0332770805</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Associato Dr Facchetti C. e Dott.ssa Rottigni D.</nome>
+        <indirizzo>Via del Brasile, 27</indirizzo>
+        <citta>Brescia</citta>
+        <cap>25124</cap>
+        <provincia>BS</provincia>
+        <latitudine>45.52408609236163</latitudine>
+        <longitudine>10.230221021328152</longitudine>
+        <telefono>030222616</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Medico Veterinario Milesi Dott.ssa Serena</nome>
+        <indirizzo>Via Caroldi, 3/Q</indirizzo>
+        <citta>Strozza</citta>
+        <cap>24030</cap>
+        <provincia>BG</provincia>
+        <latitudine>45.77817337496938</latitudine>
+        <longitudine>9.572206279249283</longitudine>
+        <telefono>3289697077</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Piccagnoni</nome>
+        <indirizzo>Via Bosatta, 6/D</indirizzo>
+        <citta>Sondrio</citta>
+        <cap>23100</cap>
+        <provincia>SO</provincia>
+        <latitudine>46.17070838642955</latitudine>
+        <longitudine>9.862878690553137</longitudine>
+        <telefono>3472464775</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Dott. Bianco Elio</nome>
+        <indirizzo>Via Roma, 139</indirizzo>
+        <citta>Olgiate Comasco</citta>
+        <cap>22077</cap>
+        <provincia>CO</provincia>
+        <latitudine>45.78581158014003</latitudine>
+        <longitudine>8.958851242166746</longitudine>
+        <telefono>031944377</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Stradella</nome>
+        <indirizzo>Via Nazionale, 43</indirizzo>
+        <citta>Stradella</citta>
+        <cap>27049</cap>
+        <provincia>PV</provincia>
+        <latitudine>45.0791393100731</latitudine>
+        <longitudine>9.303718249961584</longitudine>
+        <telefono>0385251765</telefono>
+    </veterinario>
+    <veterinario>
+        <nome>Ambulatorio Veterinario Donzelli Dr. Antonio</nome>
+        <indirizzo>Via dello Zuccherificio, 5</indirizzo>
+        <citta>Casalmaggiore</citta>
+        <cap>26041</cap>
+        <provincia>CR</provincia>
+        <latitudine>44.990556527556635</latitudine>
+        <longitudine>10.424402763244226</longitudine>
+        <telefono>037543342</telefono>
+    </veterinario>
+</veterinari>

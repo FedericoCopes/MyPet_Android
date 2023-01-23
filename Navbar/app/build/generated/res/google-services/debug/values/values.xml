@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">137444149036-5d73s0j3qa0c3dnatm5c38km6putkecu.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">137444149036</string>
+    <string name="google_api_key" translatable="false">AIzaSyDnw66nVJXSB3DZoDqkVn2FsY-f1XCACQw</string>
+    <string name="google_app_id" translatable="false">1:137444149036:android:056a777b39c098b53d8e89</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDnw66nVJXSB3DZoDqkVn2FsY-f1XCACQw</string>
+    <string name="google_storage_bucket" translatable="false">mypet-756fb.appspot.com</string>
+    <string name="project_id" translatable="false">mypet-756fb</string>
+</resources>
