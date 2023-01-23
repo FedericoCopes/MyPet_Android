@@ -58,6 +58,11 @@ public class Register extends AppCompatActivity {
                     Toast.makeText(Register.this, "Passwords are not matching", Toast.LENGTH_SHORT).show();
                 }
 
+                // check if Username contains ".", "#", "$", "[" or "]"
+                else if(usernameTxt.matches(".*[.#\\$\\[\\]].*")){
+                    Toast.makeText(Register.this, "Invalid Username", Toast.LENGTH_SHORT).show();
+                }
+
                 else{
 
                     databaseReference.child("users").addListenerForSingleValueEvent(new ValueEventListener() {

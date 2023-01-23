@@ -1,5 +1,10 @@
 package com.example.navbar;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,6 +25,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class MapFragment extends Fragment {
 
+    @SuppressLint("MissingPermission")
     @Nullable
     @org.jetbrains.annotations.Nullable
     @Override
