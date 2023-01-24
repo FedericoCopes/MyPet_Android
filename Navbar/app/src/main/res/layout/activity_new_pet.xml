@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".NewPet">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/purple_700"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrazione"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tipologia_animale"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="8dp"
+                android:hint="Tipologia"
+                android:textColorHint="@color/white"
+                android:padding="8dp"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/nome_animale"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="8dp"
+                android:hint="Name"
+                android:textColorHint="@color/white"
+                android:padding="8dp"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/razza_animale"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="8dp"
+                android:hint="Razza"
+                android:textColorHint="@color/white"
+                android:padding="8dp"
+                android:textColor="@color/white" />
+
+
+            <EditText
+                android:id="@+id/mantello_animale"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="8dp"
+                android:hint="Colore del Mantello"
+                android:textColorHint="@color/white"
+                android:padding="8dp"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/sesso_animale"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="8dp"
+                android:hint="Sesso"
+                android:textColorHint="@color/white"
+                android:padding="8dp"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/nascita_animale"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="8dp"
+                android:hint="Data di nascita"
+                android:textColorHint="@color/white"
+                android:padding="8dp"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/peso_animale"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="8dp"
+                android:hint="Peso"
+                android:textColorHint="@color/white"
+                android:padding="8dp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/registra_animale"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:text="Salva"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:cornerRadius="48dp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

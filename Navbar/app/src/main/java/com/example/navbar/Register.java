@@ -3,6 +3,7 @@ package com.example.navbar;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -83,8 +84,19 @@ public class Register extends AppCompatActivity {
                                 databaseReference.child("users").child(usernameTxt).child("password").setValue(passwordTxt);
 
                                 // show a success message the finish the activity
-                                Toast.makeText(Register.this, "User registered successfully.", Toast.LENGTH_SHORT).show();
-                                finish();
+                                if(passwordTxt.length()>8){
+                                    if(passwordTxt.matches(".*[A-Z].*") == true){
+                                        Toast.makeText(Register.this, "User registered successfully.", Toast.LENGTH_SHORT).show();
+                                        Intent intent = new Intent (Register.this, NewPet.class);
+                                        intent.putExtra("nomeutente",usernameTxt);
+                                        startActivity(intent);
+                                        finish();
+                                    }else{
+                                        Toast.makeText(Register.this, "The password must contain at least one uppercase letter", Toast.LENGTH_SHORT).show();
+                                    }
+                                }else{
+                                    Toast.makeText(Register.this, "Invalid password", Toast.LENGTH_SHORT).show();
+                                }
                             }
                         }
 
@@ -93,10 +105,7 @@ public class Register extends AppCompatActivity {
 
                         }
                     });
-
-
                 }
-
             }
         });
         loginNowBtn.setOnClickListener(new View.OnClickListener() {
