@@ -5,11 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/buttonAlimentazione"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="Alimentazione"
+        android:textColor="@color/white"
+        app:cornerRadius="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textSfoglia"
+        tools:ignore="MissingConstraints" />
+
     <TextView
         android:id="@+id/textSfoglia"
         android:layout_width="132dp"
         android:layout_height="68dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="56dp"
         android:text="Sfoglia"
         android:textColor="@color/black"
         android:textSize="36sp"
@@ -20,60 +34,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonAlimentazione"
-        android:layout_width="303dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="104dp"
-        android:backgroundTint="@color/purple_700"
-        android:text="Alimentazione"
-        android:textColor="@color/white"
-        app:cornerRadius="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textSfoglia"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/buttonSintomi"
-        android:layout_width="308dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="280dp"
-        android:layout_marginStart="186dp"
-        android:layout_marginEnd="186dp"
-        android:backgroundTint="@color/purple_700"
-        android:text="Sintomi"
-        android:textColor="@color/white"
-        app:cornerRadius="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textSfoglia"
-        tools:ignore="MissingConstraints" />
-
-    <Button
         android:id="@+id/buttonVaccini"
         android:layout_width="303dp"
         android:layout_height="51dp"
-        android:layout_marginTop="188dp"
         android:layout_marginStart="186dp"
+        android:layout_marginTop="204dp"
         android:layout_marginEnd="186dp"
         android:backgroundTint="@color/purple_700"
         android:text="Vaccini"
-        android:textColor="@color/white"
-        app:cornerRadius="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textSfoglia"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/buttonAttività"
-        android:layout_width="297dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="186dp"
-        android:layout_marginEnd="186dp"
-        android:layout_marginTop="432dp"
-        android:backgroundTint="@color/purple_700"
-        android:text="Attività"
         android:textColor="@color/white"
         app:cornerRadius="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,13 +54,46 @@
         android:layout_width="297dp"
         android:layout_height="50dp"
         android:layout_marginStart="186dp"
+        android:layout_marginTop="364dp"
         android:layout_marginEnd="186dp"
-        android:layout_marginTop="356dp"
         android:backgroundTint="@color/purple_700"
         android:text="Medicinali"
         android:textColor="@color/white"
         app:cornerRadius="48dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textSfoglia"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonAttività"
+        android:layout_width="297dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="186dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="Attività"
+        android:textColor="@color/white"
+        app:cornerRadius="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textSfoglia"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonSintomi"
+        android:layout_width="308dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="186dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="Sintomi"
+        android:textColor="@color/white"
+        app:cornerRadius="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textSfoglia"
         tools:ignore="MissingConstraints" />

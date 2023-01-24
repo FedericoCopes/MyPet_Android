@@ -58,7 +58,9 @@ public class Login extends AppCompatActivity {
                                     Toast.makeText(Login.this, "Successfully Logged in", Toast.LENGTH_SHORT).show();
 
                                     // open MainActivity on success
-                                    startActivity(new Intent(Login.this, MainActivity.class));
+                                    Intent intent = new Intent (Login.this, NewPet.class);
+                                    intent.putExtra("nomeutente",usernameTxt);
+                                    startActivity(intent);
                                     finish();
                                 }
                                 else{
