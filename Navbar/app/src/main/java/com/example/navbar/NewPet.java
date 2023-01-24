@@ -14,6 +14,10 @@ import android.widget.Toast;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class NewPet extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
 
@@ -62,14 +66,19 @@ public class NewPet extends AppCompatActivity implements AdapterView.OnItemSelec
                 String coloreCane = colore.getText().toString();
                 String sessoCane = sesso.getText().toString();
                 String dataNascitaAnimale = dataNascita.getText().toString();
+                String tipologia = tipologia_animale.getText().toString();
                 Double pesoAnimale = Double.parseDouble(peso.getText().toString());
 
                 if(sessoCane.equals("Maschio") || sessoCane.equals("Femmina") ){
-                    Animale animale = new Animale(tipologia, name, razzaCane, coloreCane, sessoCane, pesoAnimale, dataNascitaAnimale);
-                    reference.child("animale").setValue(animale);
-                    Intent intent = new Intent(NewPet.this, MainActivity.class);
-                    intent.putExtra("nomeutente", nomeUtente);
-                    startActivity(intent);
+                    if(checkdate(dataNascitaAnimale) == false || dataNascitaAnimale.length() != 10){
+                        Toast.makeText(NewPet.this, "Invalid date, the right model is MM/dd/yyyy", Toast.LENGTH_SHORT).show();
+                    }else{
+                        Animale animale = new Animale(tipologia, name, razzaCane, coloreCane, sessoCane, pesoAnimale, dataNascitaAnimale);
+                        reference.child("animale").setValue(animale);
+                        Intent intent = new Intent(NewPet.this, MainActivity.class);
+                        intent.putExtra("nomeutente", nomeUtente);
+                        startActivity(intent);
+                    }
                 }else{
                     Toast.makeText(NewPet.this, "Gender not accepted", Toast.LENGTH_SHORT).show();
                 }
@@ -87,6 +96,39 @@ public class NewPet extends AppCompatActivity implements AdapterView.OnItemSelec
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+
+    public static boolean checkdate(String strDate)
+    {
+        /* Check if date is 'null' */
+        if (strDate.trim().equals(""))
+        {
+            return true;
+        }
+        else
+        {
+            /*
+             * Set preferred date format,
+             * For example MM-dd-yyyy, MM.dd.yyyy,dd.MM.yyyy etc.*/
+            SimpleDateFormat sdfrmt = new SimpleDateFormat("MM/dd/yyyy");
+            sdfrmt.setLenient(false);
+            /* Create Date object
+             * parse the string into date
+             */
+            try
+            {
+                Date javaDate = sdfrmt.parse(strDate);
+                System.out.println(strDate+" is valid date format");
+            }
+            /* Date format is invalid */
+            catch (ParseException e)
+            {
+                System.out.println(strDate+" is Invalid Date format");
+                return false;
+            }
+            /* Return true if date format is valid */
+            return true;
+        }
     }
 
 }

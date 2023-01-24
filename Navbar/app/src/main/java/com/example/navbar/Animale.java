@@ -53,12 +53,12 @@ public class Animale {
         this.colore = colore;
     }
 
-    public String getProvenienza() {
+    public String getSesso() {
         return sesso;
     }
 
-    public void setProvenienza(String provenienza) {
-        this.sesso = provenienza;
+    public void setSesso(String sesso) {
+        this.sesso = sesso;
     }
 
     public double getPeso() {
