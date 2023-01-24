@@ -1,5 +1,6 @@
 package com.example.navbar;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -47,6 +48,7 @@ public class MapFragment extends Fragment {
 
         //Async map
         supportMapFragment.getMapAsync(new OnMapReadyCallback() {
+            @SuppressLint("MissingPermission")
             @Override
             public void onMapReady(@NonNull GoogleMap googleMap) {
                 //Utili per la ricerca della poszione
@@ -60,6 +62,8 @@ public class MapFragment extends Fragment {
                 double myLon = 9.456;//Verceia
                 //When map is loaded
                 googleMap.setMapType(com.google.android.gms.maps.GoogleMap.MAP_TYPE_SATELLITE);
+                // show realtime position of the user
+                googleMap.setMyLocationEnabled(true);
 
                 InputStream is = getResources().openRawResource(R.raw.veterinari);
                 try {
@@ -83,6 +87,7 @@ public class MapFragment extends Fragment {
                     public void onMapClick(@NonNull LatLng latLng) {
                     }
                 });
+
             }
         });
 
@@ -114,4 +119,5 @@ public class MapFragment extends Fragment {
             }
         }
     }
+
 }
