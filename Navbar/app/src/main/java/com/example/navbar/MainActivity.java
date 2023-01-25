@@ -48,8 +48,13 @@ public class MainActivity extends AppCompatActivity {
                 Fragment fragment = null;
                 switch (i){
                     case R.id.nav_menu:
-                        MenuFragment menuFragment = new MenuFragment();
-                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,menuFragment).commit();
+                        FragmentManager menuFragmet = getSupportFragmentManager();
+                        FragmentTransaction fragmenu = menuFragmet.beginTransaction();
+                        Bundle bundlemenu = new Bundle();
+                        bundlemenu.putString("nomeutente", nomeUtente);
+                        MenuFragment menu = new MenuFragment();
+                        menu.setArguments(bundlemenu);
+                        fragmenu.replace(R.id.fragment_container, menu).commit();
                         break;
                     case R.id.nav_home:;
                         FragmentManager fragmentManager = getSupportFragmentManager();
