@@ -71,7 +71,7 @@ public class NewPet extends AppCompatActivity implements AdapterView.OnItemSelec
 
                 if(sessoCane.equals("Maschio") || sessoCane.equals("Femmina") ){
                     if(checkdate(dataNascitaAnimale) == false || dataNascitaAnimale.length() != 10){
-                        Toast.makeText(NewPet.this, "Invalid date, the right model is MM/dd/yyyy", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(NewPet.this, "Invalid date, the right model is dd/mm/yyyy", Toast.LENGTH_SHORT).show();
                     }else{
                         Animale animale = new Animale(tipologia, name, razzaCane, coloreCane, sessoCane, pesoAnimale, dataNascitaAnimale);
                         reference.child("animale").setValue(animale);
