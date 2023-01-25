@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.se.omapi.Session;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,6 +18,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Properties;
 public class Register extends AppCompatActivity {
 
     // create object of DatabaseReference class to access firebase's Realtime Database
@@ -62,6 +64,10 @@ public class Register extends AppCompatActivity {
                 // check if Username contains ".", "#", "$", "[" or "]"
                 else if(usernameTxt.matches(".*[.#\\$\\[\\]].*")){
                     Toast.makeText(Register.this, "Invalid Username", Toast.LENGTH_SHORT).show();
+                }else if(passwordTxt.length() < 8){
+                    Toast.makeText(Register.this, "Invalid password", Toast.LENGTH_SHORT).show();
+                }else if(passwordTxt.matches(".*[A-Z].*") == false){
+                    Toast.makeText(Register.this, "Invalid password", Toast.LENGTH_SHORT).show();
                 }
 
                 else{
@@ -82,21 +88,12 @@ public class Register extends AppCompatActivity {
                                 databaseReference.child("users").child(usernameTxt).child("fullname").setValue(fullnameTxt);
                                 databaseReference.child("users").child(usernameTxt).child("email").setValue(emailTxt);
                                 databaseReference.child("users").child(usernameTxt).child("password").setValue(passwordTxt);
-
+                                Toast.makeText(Register.this, "User registered successfully.", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent (Register.this, NewPet.class);
+                                intent.putExtra("nomeutente",usernameTxt);
+                                startActivity(intent);
+                                finish();
                                 // show a success message the finish the activity
-                                if(passwordTxt.length()>8){
-                                    if(passwordTxt.matches(".*[A-Z].*") == true){
-                                        Toast.makeText(Register.this, "User registered successfully.", Toast.LENGTH_SHORT).show();
-                                        Intent intent = new Intent (Register.this, NewPet.class);
-                                        intent.putExtra("nomeutente",usernameTxt);
-                                        startActivity(intent);
-                                        finish();
-                                    }else{
-                                        Toast.makeText(Register.this, "The password must contain at least one uppercase letter", Toast.LENGTH_SHORT).show();
-                                    }
-                                }else{
-                                    Toast.makeText(Register.this, "Invalid password", Toast.LENGTH_SHORT).show();
-                                }
                             }
                         }
 

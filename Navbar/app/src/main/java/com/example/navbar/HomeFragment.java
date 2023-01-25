@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -22,6 +24,7 @@ public class HomeFragment extends Fragment {
 
 
     TextView TxtnomeAnimal, TxtrazzaAnimale, TxtcoloreAnimale, TxtSessoAnimale, TxtdataNasictaAnimale, TxtpesoAnimale, TxtTipologiaAnimale;
+    ImageView img;
     @Nullable
     @org.jetbrains.annotations.Nullable
     @Override
@@ -39,6 +42,9 @@ public class HomeFragment extends Fragment {
         TxtdataNasictaAnimale = view.findViewById(R.id.txtNascita);
         TxtpesoAnimale = view.findViewById(R.id.txtPeso);
         TxtTipologiaAnimale = view.findViewById(R.id.txtTipologia);
+        img = view.findViewById(R.id.imageView);
+
+
         impostaNomeAnimale(nomeUtente);
         return view;
     }
@@ -49,8 +55,9 @@ public class HomeFragment extends Fragment {
         DatabaseReference addcoloreAnimale = ref.child("users").child(nomeUtente).child("animale").child("colore");
         DatabaseReference adddataAnimale = ref.child("users").child(nomeUtente).child("animale").child("data");
         DatabaseReference addpesoAnimale = ref.child("users").child(nomeUtente).child("animale").child("peso");
-        DatabaseReference addprovenienzaAnimale = ref.child("users").child(nomeUtente).child("animale").child("provenienza");
+        DatabaseReference addsessoAnimale = ref.child("users").child(nomeUtente).child("animale").child("sesso");
         DatabaseReference addrazzaAnimale = ref.child("users").child(nomeUtente).child("animale").child("razza");
+        DatabaseReference addtipologiaAnimale = ref.child("users").child(nomeUtente).child("animale").child("tipologia");
 
         addnomeAnimale.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -103,7 +110,7 @@ public class HomeFragment extends Fragment {
 
             }
         });
-        addprovenienzaAnimale.addListenerForSingleValueEvent(new ValueEventListener() {
+        addsessoAnimale.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String provenienza = dataSnapshot.getValue(String.class);
@@ -121,6 +128,31 @@ public class HomeFragment extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String razza = dataSnapshot.getValue(String.class);
                 TxtrazzaAnimale.setText("Razza: "+razza);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        addtipologiaAnimale.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String tipologia = dataSnapshot.getValue(String.class);
+                TxtTipologiaAnimale.setText("Tipologia: "+tipologia);
+                switch (tipologia){
+                    case "Cane":
+                        img.setImageResource(R.drawable.cane);
+                        break;
+                    case "Gatto":
+                        img.setImageResource(R.drawable.gatto);
+                        break;
+                    case "Tartaruga":
+                        img.setImageResource(R.drawable.tartaruga);
+                        break;
+                }
+
             }
 
             @Override
