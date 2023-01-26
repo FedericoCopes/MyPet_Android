@@ -38,6 +38,7 @@ public class MyAdapter1 extends RecyclerView.Adapter<MyAdapter1.MyViewHolder> {
         holder.dataM.setText(med.getDatascadenza());
         holder.giorniA.setText(med.getGiorniassunzione());
         holder.orariA.setText(med.getOrarioassunzione());
+        holder.quantitaM.setText(med.getQuantità());
 
 
     }
@@ -49,7 +50,7 @@ public class MyAdapter1 extends RecyclerView.Adapter<MyAdapter1.MyViewHolder> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView nomeM, dataM, giorniA, orariA;
+        TextView nomeM, dataM, giorniA, orariA, quantitaM;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -57,7 +58,8 @@ public class MyAdapter1 extends RecyclerView.Adapter<MyAdapter1.MyViewHolder> {
             nomeM = itemView.findViewById(R.id.tvnome);
             dataM = itemView.findViewById(R.id.tvdatascadenza);
             giorniA = itemView.findViewById(R.id.tvgiorniassunzione);
-            orariA = itemView.findViewById(R.id.tvgiorniassunzione);
+            orariA = itemView.findViewById(R.id.tvorariassunzione);
+            quantitaM = itemView.findViewById(R.id.tvqta);
 
         }
     }

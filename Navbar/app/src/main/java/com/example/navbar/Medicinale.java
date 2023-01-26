@@ -8,14 +8,24 @@ public class Medicinale {
     private String datascadenza;
     private String giorniassunzione;
     private String orarioassunzione;
+    private String quantità;
 
-    public Medicinale(String nome, String datascadenza, String giorniassunzione, String orarioassunzione) {
+    public Medicinale(String nome, String datascadenza, String giorniassunzione, String orarioassunzione, String quantità) {
         this.nome = nome;
         this.datascadenza = datascadenza;
         this.giorniassunzione = giorniassunzione;
         this.orarioassunzione = orarioassunzione;
+        this.quantità = quantità;
     }
     public Medicinale(){}
+
+    public String getQuantità() {
+        return quantità;
+    }
+
+    public void setQuantità(String quantità) {
+        this.quantità = quantità;
+    }
 
     public String getNome() {
         return nome;
