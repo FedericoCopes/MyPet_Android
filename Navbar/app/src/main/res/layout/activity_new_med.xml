@@ -81,6 +81,18 @@
                 android:padding="8dp"
                 android:textColor="@color/white" />
 
+            <EditText
+                android:id="@+id/quantita_med"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="8dp"
+                android:hint="Quantità medicinale"
+                android:maxLines="1"
+                android:textColorHint="@color/white"
+                android:padding="8dp"
+                android:textColor="@color/white" />
+
             <Button
                 android:id="@+id/salva_med"
                 android:layout_width="match_parent"
