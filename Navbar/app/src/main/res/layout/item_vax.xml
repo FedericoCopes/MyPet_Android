@@ -5,14 +5,17 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="8dp"
+    app:contentPaddingRight="16dp"
     app:cardCornerRadius="8dp"
     android:layout_margin="16dp">
 
     <LinearLayout
 
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -41,56 +44,71 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Data:"
+                android:text="Data vaccinazione:"
                 android:textColor="@color/black"
-                android:textSize="26sp"
-                android:textStyle="bold"/>
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:gravity="start"
+                />
 
             <TextView
-                android:id="@+id/tvdata"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:text="20/10/2005"
+                android:text="Fine Vaccinazione:"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:gravity="end"
+                />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/tvdata"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Fine:"
+                android:text="20/10/2010"
                 android:textColor="@color/black"
-                android:textSize="26sp"
-                android:textStyle="bold"/>
+                android:textSize="20sp"
+                android:gravity="start"
+                />
 
             <TextView
                 android:id="@+id/tvfine"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:text="20/10/2010"
+                android:text="20/10/2015:"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:gravity="end"
+                android:paddingRight="5dp"
+                />
 
         </LinearLayout>
 
-
+        <Button
+            android:id="@+id/tvdelate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elimina"
+            android:backgroundTint="@color/light_blue_600"/>
 
     </LinearLayout>
 

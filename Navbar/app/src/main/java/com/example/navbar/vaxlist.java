@@ -57,7 +57,7 @@ public class vaxlist extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         list = new ArrayList<>();
-        myAdapter = new MyAdapter(this, list);
+        myAdapter = new MyAdapter(this, list, nomeUtente);
         recyclerView.setAdapter(myAdapter);
         database.addValueEventListener(new ValueEventListener() {
             @Override
@@ -65,9 +65,6 @@ public class vaxlist extends AppCompatActivity {
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
                     Vaccino vax = dataSnapshot.getValue(Vaccino.class);
                     list.add(vax);
-
-
-
                 }
                 myAdapter.notifyDataSetChanged();
             }
@@ -78,6 +75,7 @@ public class vaxlist extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
             }
         });
+
 
 
 
